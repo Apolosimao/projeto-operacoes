@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    ><title>JavaScript</title>
+
+    <meta charset="UTF-8">
+
+    <script>
+
+        
+
+    function somar(){
+        const n1 = document.getElementById('n1').value
+
+        const n2 = document.getElementById('n2').value
+
+        const soma = Number(n1) + Number(n2)
+
+        const resultado = document.getElementById('resultado')
+
+        resultado.innerHTML = 'a soma dos numeros é ' + soma
+
+       
+    }
+
+    function multiplicar(){
+
+        const n1 = document.getElementById('n1').value
+
+        const n2 = document.getElementById('n2').value
+
+        const multiplicar = Number(n1) * Number(n2)
+
+        const resultado = document.getElementById('resultado')
+
+        resultado.innerHTML = 'o produto dos numeros é ' + multiplicar
+
+        
+
+
+    }
+
+    function subtrair(){
+
+        const n1 = document.getElementById('n1').value
+
+        const n2 = document.getElementById('n2').value
+
+        const subtrair = Number(n1) - Number(n2)
+
+        const resultado = document.getElementById('resultado')
+
+        resultado.innerHTML = 'a diferença dos numeros é ' + subtrair
+
+
+    }
+
+    function dividir(){
+
+        const n1 = document.getElementById('n1').value
+
+        const n2 = document.getElementById('n2').value
+
+        const dividir = Number(n1) / Number(n2)
+
+        const resultado = document.getElementById('resultado')
+
+        resultado.innerHTML = 'a divisão dos numeros é ' + dividir
+
+        
+
+    }
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body>
+
+    <form action=""></form>
+
+N1:<input type="text" id="n1"><br>
+
+N2: <input type="text" id="n2"> <br>
+
+<input type="button" value="somar" onclick="somar()">
+<input type="button" value="subtrair" onclick="subtrair()">
+<input type="button" value="multiplicar" onclick="multiplicar()">
+<input type="button" value="dividir" onclick="dividir()">
+
+
+
+<h1 id="resultado">FAZ AS OPERAÇÕES AI PÔ</h1>
+
+
+
+
+
+
+
+<img src="joinha.PNG">
+
+
+
+
+</body>
+
+
+
+
+
+
+</html>
